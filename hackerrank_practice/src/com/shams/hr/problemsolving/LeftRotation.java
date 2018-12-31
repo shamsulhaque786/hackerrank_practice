@@ -14,8 +14,7 @@ package com.shams.hr.problemsolving;
 public class LeftRotation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for (int i : leftShift(5, 6, new int []{1, 2, 3, 4, 5, 6, 7}))
+		for (int i : leftShift(7, 2, new int []{1, 2, 3, 4, 5, 6, 7}))
 			System.out.print(" "+i);
 
 	}
